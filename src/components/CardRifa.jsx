@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import cardImage from '../../public/carrosorteio.png'
+import cardImage from '../assets/carrosorteio.png'
 
 const Card = styled.div`
     width: 300px;
