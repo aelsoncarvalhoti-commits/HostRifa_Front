@@ -26,7 +26,7 @@ const Login = () =>{
 
     const login = async () =>{
 
-        const request = await fetch("http://localhost:8080/user/new", {
+        const request = await fetch("http://localhost:8080/user/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

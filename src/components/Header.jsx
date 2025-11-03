@@ -21,6 +21,7 @@ const Nav =  styled.nav`
 
 const StyledHeader = styled.header`
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
     font-size: 1.2rem;
     display: flex;
     flex-direction: column;

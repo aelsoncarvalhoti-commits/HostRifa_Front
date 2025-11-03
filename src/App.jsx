@@ -8,6 +8,8 @@ import Rifas from './pages/public/Rifas'
 import Parceiros from './pages/public/Parceiros'
 import Login from './pages/register/Login'
 import CriarConta from './pages/register/CriarConta'
+import NovaRifa from './pages/authenticated/NovaRifa'
+import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +24,7 @@ function App() {
         <Route path='/parceiros' element={<Parceiros/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/criarConta' element={<CriarConta/>}/>
+        <Route path='/novaRifa' element={<NovaRifa/>}/>
       </Routes>
     </>
   )
